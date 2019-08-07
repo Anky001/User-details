@@ -1,27 +1,46 @@
-# EmpployeeDetails
+# EmployeeDetails
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.1.
 
-## Development server
+## App Structure
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+![preview](https://raw.githubusercontent.com/Anky001/KLM/master/screenshots/0.jpg)
 
-## Code scaffolding
+## App Screen
+![preview](https://raw.githubusercontent.com/Anky001/KLM/master/screenshots/1.png)
+![preview](https://raw.githubusercontent.com/Anky001/KLM/master/screenshots/2.png)
+![preview](https://raw.githubusercontent.com/Anky001/KLM/master/screenshots/3.png)
+![preview](https://raw.githubusercontent.com/Anky001/KLM/master/screenshots/4.png)
+![preview](https://raw.githubusercontent.com/Anky001/KLM/master/screenshots/5.png)
+![preview](https://raw.githubusercontent.com/Anky001/KLM/master/screenshots/6.png)
+![preview](https://raw.githubusercontent.com/Anky001/KLM/master/screenshots/7.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## App Chrome Audit
+![preview](https://raw.githubusercontent.com/Anky001/KLM/master/screenshots/8.png)
 
-## Build
+## Running and Testing
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Please install the node modules by executing the following command
 
-## Running unit tests
+```
+npm install
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+inside the root folder
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Built With
 
-## Further help
+*  [Angular8](https://angular.io)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+*  [Angular Material](https://material.angular.io)
+
+*  [HTML](https://www.w3.org/html/)
+
+*  [SCSS](https://sass-lang.com/)
+
+*  [TypeScript](http://www.typescriptlang.org/)
+
+
+## Author
+
+*  **Ankit Pant**
