@@ -3,19 +3,20 @@
 
 ## App Structure
 
-![preview](https://raw.githubusercontent.com/Anky001/KLM/master/screenshots/0.jpg)
+![preview](https://raw.githubusercontent.com/Anky001/User-details/master/screenshots/0.jpg)
 
 ## App Screen
-![preview](https://raw.githubusercontent.com/Anky001/KLM/master/screenshots/1.png)
-![preview](https://raw.githubusercontent.com/Anky001/KLM/master/screenshots/2.png)
-![preview](https://raw.githubusercontent.com/Anky001/KLM/master/screenshots/3.png)
-![preview](https://raw.githubusercontent.com/Anky001/KLM/master/screenshots/4.png)
-![preview](https://raw.githubusercontent.com/Anky001/KLM/master/screenshots/5.png)
-![preview](https://raw.githubusercontent.com/Anky001/KLM/master/screenshots/6.png)
-![preview](https://raw.githubusercontent.com/Anky001/KLM/master/screenshots/7.png)
+![preview](https://raw.githubusercontent.com/Anky001/User-details/master/screenshots/1.png)
+![preview](https://raw.githubusercontent.com/Anky001/User-details/master/screenshots/2.png)
+![preview](https://raw.githubusercontent.com/Anky001/User-details/master/screenshots/3.png)
+![preview](https://raw.githubusercontent.com/Anky001/User-details/master/screenshots/4.png)
+![preview](https://raw.githubusercontent.com/Anky001/User-details/master/screenshots/5.png)
+![preview](https://raw.githubusercontent.com/Anky001/User-details/master/screenshots/6.png)
+![preview](https://raw.githubusercontent.com/Anky001/User-details/master/screenshots/7.png)
 
 ## App Chrome Audit
-![preview](https://raw.githubusercontent.com/Anky001/KLM/master/screenshots/8.png)
+![preview](https://raw.githubusercontent.com/Anky001/User-details/master/screenshots/8.png)
+![preview](https://raw.githubusercontent.com/Anky001/User-details/master/screenshots/9.png)
 
 ## Running and Testing
 
