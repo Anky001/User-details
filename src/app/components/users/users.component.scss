@@ -2,9 +2,18 @@
   padding: 16px;
   height: 512px;
   border-radius: 0 0 85% 0%;
-  /* Linear gradient generate online*/
+  /* Linear gradient generated online*/
   background: -moz-linear-gradient(45deg, #3F51B5 0%, #008080 100%);
   background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #3F51B5), color-stop(100%, #008080));
   background: -ms-linear-gradient(45deg, #3F51B5 0%, #008080 100%);
   background: linear-gradient(45deg, #3F51B5 0%, #008080 100%);
+}
+
+.more-details {
+  padding: 15px;
+  color: #444;
+}
+
+.more-details-tab-icon {
+  padding-right: 10px;
 }
