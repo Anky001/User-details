@@ -1,0 +1,27 @@
+<div class="container-wrapper" fxLayout="row" fxLayout.xs="column" fxLayoutWrap fxLayoutGap="0.5%">
+  <div class="profile-wrapper" fxLayoutAlign="center top" fxFlex="40%">
+    <app-user-profile [profileDetails]="profileDetails"></app-user-profile>
+  </div>
+  <div class="more-details" fxFlex="60%">
+    <mat-tab-group>
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <mat-icon class="more-details-tab-icon">person</mat-icon>
+          User Details
+        </ng-template>
+        <section>
+          <app-user-details-list></app-user-details-list>
+        </section>
+      </mat-tab>
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <mat-icon class="more-details-tab-icon">person</mat-icon>
+          Add User
+        </ng-template>
+        <section>
+          <app-add-user></app-add-user>
+        </section>
+      </mat-tab>
+    </mat-tab-group>
+  </div>
+</div>

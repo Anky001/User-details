@@ -1,0 +1,83 @@
+h2,
+h4 {
+  margin: 1px;
+}
+
+.user-image {
+  height: 140px;
+  width: 140px;
+  border-radius: 100%;
+  border: 5px solid #fff;
+  margin: 10px;
+}
+
+.user-name {
+  color: #fff;
+}
+
+.user-details-content {
+  color: #ffffffbf;
+  font-weight: 100;
+  margin-top: 6px;
+  justify-content: center;
+}
+
+.user-details {
+  text-align: center;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-height {
+  border: 1px solid #ddd;
+  padding-top: 30px;
+  height: 88vh;
+}
+
+.contact-details {
+  margin-top: 16px;
+}
+
+.contact-details-icon {
+  text-align: center;
+  margin-left: 10px;
+  color: #fff;
+  background: rgba(230, 230, 230, 0.6705882353);
+  padding: 7px;
+  border-radius: 100%;
+}
+
+.users-intro {
+  margin-top: 16px;
+  width: 300px;
+}
+
+.more-details {
+  padding: 15px;
+  color: #444;
+}
+
+.tech-stack-chips {
+  margin-top: 20px;
+}
+
+.more-details-tab-icon {
+  padding-right: 10px;
+}
+
+.tab-content {
+  margin-top: 30px;
+}
+
+.user-details-info {
+  margin-bottom: 10px;
+}
+
+.title-chip {
+  color: #fff;
+  background-color: #f44336;
+  padding: 6px;
+  margin-right: 10px;
+}

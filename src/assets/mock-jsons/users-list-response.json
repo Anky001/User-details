@@ -1,0 +1,31 @@
+[{
+    "userId": 2,
+    "userName": "Alice Wonder",
+    "userAddress": {
+      "houseNumber": "51",
+      "street": "Oostakkerstraat",
+      "postalCode": "1110HR"
+    },
+    "userDOB": "1990-01-09"
+  },
+  {
+    "userId": 3,
+    "userName": "Bob",
+    "userAddress": {
+      "houseNumber": "38",
+      "street": "Guido Van",
+      "postalCode": "1210TT"
+    },
+    "userDOB": "1994-09-12"
+  },
+  {
+    "userId": 4,
+    "userName": "James Bond",
+    "userAddress": {
+      "houseNumber": "14",
+      "street": "Zuid",
+      "postalCode": "0998ZH"
+    },
+    "userDOB": "1992-02-28"
+  }
+]

@@ -1,0 +1,28 @@
+<div class="user-details">
+  <img src="assets/images/profile-picture.jpg" height="80px" width="80px" alt="user-profile" class="user-image" />
+  <h2 class="user-name">{{ profileDetails.userName }}</h2>
+  <h4 class="user-details-content">{{ profileDetails.userRole }}</h4>
+  <h4 class="user-details-content content-center">
+    <i class="material-icons">
+      location_on
+    </i>
+    {{ profileDetails.userLocation }}
+  </h4>
+  <div class="contact-details">
+    <i class="material-icons contact-details-icon" matRipple>email</i>
+    <i class="material-icons contact-details-icon" matRipple>phone</i>
+    <i class="material-icons contact-details-icon" matRipple>chat_bubble</i>
+  </div>
+  <div class="tech-stack-chips">
+    <mat-chip-list aria-label="tech-stack-chips">
+      <mat-chip color="warn" selected *ngFor="let tech of profileDetails?.userTechStack">
+        {{ tech }}
+      </mat-chip>
+    </mat-chip-list>
+  </div>
+  <div class="users-intro">
+    <mat-card>
+      {{ profileDetails.userIntro }}
+    </mat-card>
+  </div>
+</div>

@@ -1,0 +1,6 @@
+{
+  "userId": 1,
+  "jwt": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkFua2l0IFBhbnQiLCJpYXQiOjE1MTYyMzkwMjJ9.pIh3SfKyyDWAonnKDbZWWS_Hu_K3sE9z-Sp46blFdMk",
+  "userName": "Admin",
+  "userRole": "admin"
+}

@@ -1,0 +1,24 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <button mat-icon-button (click)="onToggleSidenav()" *ngIf="isLoggedIn" aria-label="menu-button">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <img src="assets/images/angular-logo.svg" height="40px" alt="app-logo" />
+    Kelius
+    <span class="header-spacer"></span>
+    <span class="header-icon center-content" *ngIf="isLoggedIn">
+      <img src="assets/images/profile-picture.jpg" height="40px" width="40px" alt="user-image" class="user-image"
+        [matMenuTriggerFor]="menu" />
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item routerLink="users">
+          <mat-icon>home</mat-icon>
+          <span>Home</span>
+        </button>
+        <button mat-menu-item (click)="logout()" aria-label="logout-button">
+          <mat-icon>power_settings_new</mat-icon>
+          <span>Logout</span>
+        </button>
+      </mat-menu>
+    </span>
+  </mat-toolbar-row>
+</mat-toolbar>

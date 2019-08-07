@@ -1,0 +1,17 @@
+<div class="user-details-wrapper">
+  <table>
+    <tr>
+      <th>UserId</th>
+      <th>User Name</th>
+      <th>DOB</th>
+      <th>Address</th>
+    </tr>
+    <tr *ngFor="let user of userDetailsList">
+      <td>{{ user.userId }}</td>
+      <td>{{ user.userName }}</td>
+      <td>{{ user.userDOB | date: 'dd MMM yyyy' }}</td>
+      <td>{{ user.userAddress.houseNumber }}, {{ user.userAddress.street }}
+        {{ user.userAddress.postalCode }} </td>
+    </tr>
+  </table>
+</div>

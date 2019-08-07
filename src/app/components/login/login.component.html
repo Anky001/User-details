@@ -1,0 +1,17 @@
+<section class="container login-background" fxLayout fxLayout.xs="column" fxLayoutAlign="center center">
+  <div class="form-wrapper">
+    <form fxLayout="column" fxLayoutGap="10px" [formGroup]="loginForm" (ngSubmit)="login()">
+      <mat-form-field>
+        <input type="email" matInput placeholder="Your email" formControlName="email">
+        <mat-error [hidden]="loginForm.controls.email.valid">Invalid or missing email.</mat-error>
+      </mat-form-field>
+      <mat-form-field>
+        <input type="password" matInput placeholder="Your password" formControlName="password">
+        <mat-hint>Please enter your password.</mat-hint>
+        <mat-error [hidden]="loginForm.controls.password.valid">Missing password.</mat-error>
+      </mat-form-field>
+      <button type="submit" mat-raised-button color="primary" [disabled]="loginForm.invalid"
+        aria-label="login-button">Submit</button>
+    </form>
+  </div>
+</section>

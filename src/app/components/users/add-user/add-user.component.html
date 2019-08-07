@@ -1,0 +1,38 @@
+<section class="container login-background" fxLayout fxLayout.xs="column" fxLayoutAlign="left"
+  fxLayoutAlign.xs="center center" *ngIf="!isLoading">
+  <div class="add-user-wrapper">
+    <form fxLayout="column" fxLayoutGap="10px" [formGroup]="registrationForm" (ngSubmit)="addUser()">
+      <mat-form-field>
+        <input type="text" matInput maxlength="20" placeholder="Users employee id" formControlName="userId">
+        <mat-error [hidden]="registrationForm.controls.userId.valid">This field is required.</mat-error>
+      </mat-form-field>
+      <mat-form-field>
+        <input type="text" matInput maxlength="20" placeholder="Users Full Name" formControlName="userName">
+        <mat-error [hidden]="registrationForm.controls.userName.valid">This field is required.</mat-error>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput [matDatepicker]="picker" placeholder="users Dob" formControlName="userDOB">
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+        <mat-error [hidden]="registrationForm.controls.userDOB.valid">This field is required.</mat-error>
+      </mat-form-field>
+      <mat-form-field>
+        <input type="text" matInput maxlength="20" placeholder="Users house number" formControlName="houseNumber">
+        <mat-error [hidden]="registrationForm.controls.houseNumber.valid">This field is required.</mat-error>
+      </mat-form-field>
+      <mat-form-field>
+        <input type="text" matInput maxlength="20" placeholder="Users street" formControlName="street">
+        <mat-error [hidden]="registrationForm.controls.street.valid">This field is required.</mat-error>
+      </mat-form-field>
+      <mat-form-field>
+        <input type="text" matInput maxlength="20" placeholder="Users postalCode" formControlName="postalCode">
+        <mat-error [hidden]="registrationForm.controls.postalCode.valid">This field is required.</mat-error>
+      </mat-form-field>
+      <button type="submit" mat-raised-button color="primary" [disabled]="registrationForm.invalid"
+        aria-label="add-user-button">Submit</button>
+    </form>
+  </div>
+</section>
+<section class="loading-container" fxLayout="column" fxLayoutAlign="center center" *ngIf="isLoading">
+  <mat-spinner></mat-spinner>
+</section>
